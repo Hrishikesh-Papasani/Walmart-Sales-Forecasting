@@ -48,8 +48,8 @@ This project aims to identify various patterns and features that impact Walmart'
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Hrishikesh-Papasani/Walmart-Sales-Forecast.git
-   cd Walmart-Sales-Forecast
+   git clone https://github.com/Hrishikesh-Papasani/Walmart-Sales-Forecasting.git
+   cd Walmart-Sales-Forecasting
    ```             
 2. Install the required packages:
     ```bash

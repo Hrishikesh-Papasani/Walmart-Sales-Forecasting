@@ -1,25 +1,48 @@
-# Walmart Sales Forecasting Project
+# Walmart Sales Forecasting
 
 ## Introduction
 
-This project aims to predict weekly sales for Walmart stores using historical sales data. It involves data cleaning, exploratory data analysis (EDA), feature engineering, model development, and model tuning.
+This project aims to identify various patterns and features that impact Walmart's sales and demand. By deriving key insights that influence sales, we develop a predictive model to forecast future demand based on given features.
+
 
 ## Directory Structure
 
-- **/data**
-  - **Walmart_Store_sales.csv**: The raw dataset used for analysis and modeling.
-  - **Walmart_Store_sales_updated.csv**: Final dataset after data preprocessing and feature engineering.
-  - **data_description.txt**: Description of the dataset.
-- **/notebooks**
-  - **01_Walmart_Sales_Introduction_and_EDA.ipynb**: Data exploration, preprocessing, and initial EDA.
-  - **02_Walmart_Sales_SQL_Analysis.ipynb**: Data analysis using SQL.
-  - **03_Walmart_Sales_Model_Development.ipynb**: Feature engineering, model development, model enhancement, hyperparameter tuning, and evaluation.
-- **README.md**: Project documentation and overview.
-- **requirements.txt**: List of dependencies and required packages.
-- **LICENSE**: License for the project.
+```plaintext
+├── data
+│   ├── Walmart_Store_sales.csv            # The raw dataset used for analysis and modeling.
+│   ├── Walmart_Store_sales_updated.csv    # Final dataset after data preprocessing and feature engineering.
+│   └── data_description.txt               # Description of the dataset.
+├── notebooks
+│   ├── 01_Walmart_Sales_Introduction_and_EDA.ipynb # Data exploration, preprocessing, and initial EDA.
+│   ├── 02_Walmart_Sales_SQL_Analysis.ipynb        # Data analysis using SQL.
+│   └── 03_Walmart_Sales_Model_Development.ipynb   # Feature engineering, model development, model enhancement, hyperparameter tuning, and evaluation.
+├── README.md                                # Project documentation and overview.
+├── requirements.txt                         # List of dependencies and required packages.
+└── LICENSE                                  # License for the project.
+```
 
 
+## Features
 
+- **Data Analysis:** Conducted comprehensive exploratory data analysis (EDA) to uncover purchasing patterns and identify peak sales periods.
+- **SQL Analysis:** Leveraged SQL for advanced data queries and extracting key insights.
+- **Feature Engineering:** Implemented feature engineering techniques to enhance model performance.
+- **Predictive Modeling:** Developed and evaluated multiple predictive models to forecast future sales. The tuned model achieved an R² score of 0.9751.
+- **Data Visualization:** Generated a variety of plots and charts to facilitate better understanding and communication of the data.
+
+
+## Tech Stack
+- Python
+- SQL
+- Jupyter Notebooks
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Git
+
+  
 ## Setup
 
 1. Clone the repository:
@@ -32,6 +55,7 @@ This project aims to predict weekly sales for Walmart stores using historical sa
     ```bash
     pip install -r requirements.txt
     ```
+
 
 
 ## License

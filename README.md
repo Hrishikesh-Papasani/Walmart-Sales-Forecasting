@@ -22,7 +22,7 @@ This project aims to identify various patterns and features that impact Walmart'
 ```
 
 
-## Features
+## Overview
 
 - **Data Analysis:** Conducted comprehensive exploratory data analysis (EDA) to uncover purchasing patterns and identify peak sales periods.
 - **SQL Analysis:** Leveraged SQL for advanced data queries and extracting key insights.
@@ -33,7 +33,7 @@ This project aims to identify various patterns and features that impact Walmart'
 
 ## Tech Stack
 - Python
-- SQL
+- SQL (SQLAlchemy)
 - Jupyter Notebooks
 - Pandas
 - NumPy

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to identify various patterns and features that impact Walmart's sales and demand. By deriving key insights that influence sales, we develop a predictive model to forecast future demand based on given features.
+This project aims to identify various patterns and features that impact Walmart's sales and demand. By deriving key insights that influence sales, we develop a predictive model to forecast future demand.
 
 
 ## Directory Structure
